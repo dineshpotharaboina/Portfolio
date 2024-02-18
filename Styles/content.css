@@ -1,0 +1,48 @@
+.content{
+    padding-top: 20%;
+    padding-left: 15%;
+    height: 100vh;
+}
+
+h4{
+    color: #ffff;
+    font-size: 25px;
+}
+h1{
+    color: #ffff;
+    font-size: 75px;
+    margin: 45px 0px 45px;
+}
+h1 span{
+    color: #f9004d;
+}
+h3{
+    color: #ffff;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+form{
+    width: 360px;
+    max-width: 100%;
+    position: relative;
+}
+form input:first-child{
+    width: 100%;
+    padding: 15px 10px 15px;
+    border-radius: 25px;
+    border: 2px solid #f9004d;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+form input:last-child{
+    border: none;
+    background-color: #f9004d;
+    padding: 13px 25px 13px;
+    border-radius:25px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    box-shadow: 0px 0px 5px  #000,0px 0px 15px  #f9004d;
+}
+
+

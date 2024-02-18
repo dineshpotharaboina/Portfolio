@@ -1,0 +1,235 @@
+body{
+    background-color: #000;
+}
+.resume-container{
+    margin: 90px 16% 40px 16%;
+    padding: 0;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.21);
+}
+.top-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.resume-name p{
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.resume-name span{
+    color: #f9004d;
+}
+.personal-details{
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    display: grid;
+    width: 900px;
+    grid-template-columns: 500px 1fr;
+    margin-left: -20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+}
+.personal-data{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.personal-data img{
+    width: 30px;
+}
+.personal-data p{
+    color: #fff;
+    font-size: 18px;
+}
+.summary{
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    width: 900px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+.summary span{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f9004d;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.summary-data p{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 23px;
+}
+.middle-section{
+    display: flex;
+    column-gap: 10px;
+}
+.education{
+    background-color: rgba(255, 255, 255, 0.21);
+    width: 400px;
+    border-radius: 10px;
+}
+.education span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f9004d;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-left: 34%;
+}
+.qualification{
+    color: #fff;
+    width: 350px;
+    padding:5px 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.degree p{
+    background-color: #fff;
+    color: #000;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.qualification p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.qualification .date{
+    border: 1px solid #f9004d;
+    width: 200px;
+    text-align: center;
+    padding: 5px 5px;
+}
+.projects{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    padding-right: 25px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.projects span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f9004d;
+    padding: 8px 15px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+.title ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.title li{
+    list-style: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.discription p{
+    color: white;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.technical{
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    width: 450px;
+    border-radius: 10px;
+}
+.technical span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f9004d;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.skills{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.skills p{
+    background-color:#fff;
+    color: #000;
+    width: 150px;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skills li{
+    color:#fff;
+    line-height: 25px;
+}
+.hobbies{
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    width: 550px;
+    border-radius: 10px; 
+}
+.hobbies span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f9004d;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-left: 37%;
+}
+.bottom-section{
+    display: flex;
+    column-gap: 10px;
+}
+.hobbies-list{
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.hobbies-list li{
+    list-style: none;
+}
+.hobbies-list img{
+    width: 150px;
+    border-radius: 50%;
+}
+.hobbies-names{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.hobbies-names li{
+    list-style: none;
+    color: #fff;
+    font-weight: bold;
+}

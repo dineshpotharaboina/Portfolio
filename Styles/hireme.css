@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-me{
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-me p {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+.contact-me span{
+    color: #f9004d;
+    animation-name: spanColor;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes spanColor{
+    0%{
+        color: #ffff;
+    }
+    100%{
+        color: #f9004d;
+    }
+
+}
+.hireme-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+    padding-left: 100px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hireme-form label{
+    font-size: 18px;
+}
+.hireme-form input{
+    width: 290px;
+    border: none;
+    color: #191919;
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.send-button{
+    background-color: #f9004d;
+    width: 300px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+.send-button:hover{
+    background-color: #fff;
+    color: #f9004d;
+    cursor: pointer;
+}
+.contact-me-img{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.contact-me-img img{
+    width: 30px;
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.contact-me-img img:hover{
+    border: 2px solid #ffff;
+    background-color: #f9004d;
+}
