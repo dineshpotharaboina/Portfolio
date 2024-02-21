@@ -91,3 +91,23 @@
     border: 2px solid #ffff;
     background-color: #f9004d;
 }
+@media(max-width:850px){
+    .contact-me p {
+        font-size: 20px;
+    }
+}
+@media(max-width:550px){
+    .contact-me p{
+        font-size: 17px;
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+    .hireme-form{
+        width: fit-content;
+        padding-left: 0;
+    }
+    .hireme-form label{
+        font-size: 15px;
+    }
+
+}

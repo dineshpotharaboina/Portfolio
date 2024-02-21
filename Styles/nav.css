@@ -34,12 +34,10 @@ span{
     width: 100%;
     background-size: cover;
     background-position:center;
+    transition: 0.3s;
 }
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines{
-    display: none;
-}
+
 .navbar{
     box-shadow: 0px 2px 2px 0px #aaa;
     position: fixed;
@@ -51,6 +49,9 @@ span{
     color: #f9004d;
     opacity: 1;
     z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar-container{
     display: flex;
@@ -90,5 +91,60 @@ span{
     background-color: #645f5f;
     color: #ffff;
 }
+#menu #close{
+    background-color: #853850;
+    width: 30px;
+    padding: 4px;
+    border-radius: 10px;
+}
+#mobile #bar{
+    background-color: #f9004d;
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#mobile,
+#close{
+    display: none;
+}
+@media(max-width:850px){
+    #menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #5b323e;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #menu.active{
+        right: 0px;
+    }
+    #menu li{
+        margin-bottom: 20px;
+    }
+    #mobile {
+        display: flex;
+        padding: 0 60px;
+        cursor: pointer;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
 
-
+    .parent{
+        background-image: url("../assets/mybg.jpeg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: right;
+    }
+}

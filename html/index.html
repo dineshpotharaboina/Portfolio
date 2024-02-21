@@ -15,20 +15,18 @@
     <div class="parent">
         <nav class="navbar">
             <div class="navbar-container container">
-                <input type="checkbox" name="" id="">
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <ul class="menu-items">
+                <ul id="menu" class="menu-items">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./aboutme.html">About Me</a></li>
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./resume.html">Resume</a></li>
                     <li class="hire"><a href="./hireme.html">Hire me</a></li>
+                    <a href="#"><img id="close" src="../assets/cross.png" alt=""></a>
                 </ul>
                 <h1 class="logo">Portfo<span>lio</span></h1>
+            </div>
+            <div id="mobile">
+                <img id="bar" src="../assets/hamburger.png" alt="">
             </div>
         </nav>
         <div class="content">
@@ -199,9 +197,9 @@
             </div>
             <div class="bottom-section">
                 <div class="technical">
-                    <span>Skills</span>
+                    <span>Technical Skills</span>
                     <div class="skills">
-                        <p>Technical Skills</p>
+                        <li>Java</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -212,14 +210,18 @@
                 <div class="hobbies">
                     <span>Hobbies</span>
                     <div class="hobbies-list">
-                        <li><img src="../assets/cricket.webp" alt=""></li>
-                        <li><img src=../assets/travel.png alt=""></li>
-                        <li><img src="../assets/movie.png" alt=""></li>
-                    </div>
-                    <div class="hobbies-names">
-                        <li>Playing Cricket</li>
-                        <li>Travelling</li>
-                        <li>Watching Movies</li>
+                        <div>
+                            <li><img src="../assets/cricket.webp" alt=""></li>
+                            <li>Playing Cricket</li>
+                        </div>
+                        <div>
+                            <li><img src=../assets/travel.png alt=""></li>
+                            <li>Travelling</li>
+                        </div>
+                        <div>
+                            <li><img src="../assets/movie.png" alt=""></li>
+                            <li>Watching Movies</li>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,5 +244,7 @@
              </div>
         </div>
     </div>
+
+    <script src="../script/nav.js"></script>
 </body>
 </html>
