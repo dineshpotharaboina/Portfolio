@@ -3,7 +3,7 @@ body{
 }
 .resume-container{
     padding: 0 20px;
-    width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -291,7 +291,7 @@ body{
 }
 @media(max-width:550px){
     .resume-container{
-        width: fit-content;
+        width: 100%;
     }
     .resume-name p{
         font-size: 40px;

@@ -92,6 +92,7 @@ h2 span{
         padding-bottom: 150px;
     }
     .about-text{
+        width: fit-content;
         padding: 10px 20px;
         margin: auto 20px;
     }
